@@ -38,19 +38,17 @@ map.on('load', function() {
                  'property': 'female',
                    "stops":[
                       [0, 'white'],
-                      [400, 'Red']
+                      [1000, 'orange']
                     ]
                 },
           'fill-extrusion-height' : {
              'property': 'female',
                 "stops":[
                     [0.2, 0],
-                    [1, 500],
-                    [5,5000],
-                    [10,8000]
-                ]
-            },
-           'fill-extrusion-opacity': 1
+                    [1, 65535]
+                    ]
+          },
+          'fill-extrusion-opacity': 1
       }
     });
 });
